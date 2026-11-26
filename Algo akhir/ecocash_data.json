@@ -1,0 +1,139 @@
+{
+  "USERS": [
+    {
+      "Id_user": "U001",
+      "Username": "admin",
+      "Password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+      "Nama_lengkap": "Administrator",
+      "Role": "admin",
+      "saldo": 0
+    },
+    {
+      "Id_user": "U002",
+      "Username": "kall",
+      "Password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "Nama_lengkap": "M. Haykal Al Rafi Gani",
+      "Role": "nasabah",
+      "saldo": 14300
+    },
+    {
+      "Id_user": "U003",
+      "Username": "0",
+      "Password": "06111e1c550459aa51ceea05ef501fc477e1ba4b52a6cea0c9249bae37bc9113",
+      "Nama_lengkap": "M Haykal Al Rafi Gani",
+      "Role": "nasabah",
+      "saldo": 0
+    },
+    {
+      "Id_user": "U004",
+      "Username": "fashi",
+      "Password": "8c244b370747c1930a4e0967254778ddbb69f6a409e62beebe5f92191a09a3a1",
+      "Nama_lengkap": "Muhammad Fashihul Islam",
+      "Role": "nasabah",
+      "saldo": 0
+    },
+    {
+      "Id_user": "U005",
+      "Username": "fashii",
+      "Password": "fddc599a3afe6c68b8098f7ef3db02335f7e398e3c0bd34b663f04f424886aeb",
+      "Nama_lengkap": "Muhammad Fashihul Islam",
+      "Role": "nasabah",
+      "saldo": 0
+    },
+    {
+      "Id_user": "U006",
+      "Username": "frel",
+      "Password": "fd68fcf88c30b4df82ec214bb6b559ede1a5d47f3b1f751524177b998bb6bbdd",
+      "Nama_lengkap": "FAREL MAHESWARA",
+      "Role": "nasabah",
+      "saldo": 0
+    },
+    {
+      "Id_user": "U007",
+      "Username": "fash",
+      "Password": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+      "Nama_lengkap": "Muhammad Fashihul Islam",
+      "Role": "nasabah",
+      "saldo": 0
+    },
+    {
+      "Id_user": "U008",
+      "Username": "mron",
+      "Password": "f3a7496649452449ba0e58d128faa70f072fb591a0726f722e9994c860ecf4eb",
+      "Nama_lengkap": "imron",
+      "Role": "nasabah",
+      "saldo": 0
+    }
+  ],
+  "SAMPAH": [
+    {
+      "Id_sampah": "S01",
+      "Nama_sampah": "Plastik botol",
+      "Harga_per_kg": 4500
+    },
+    {
+      "Id_sampah": "S02",
+      "Nama_sampah": "Kertas/Kardus",
+      "Harga_per_kg": 1500
+    },
+    {
+      "Id_sampah": "S03",
+      "Nama_sampah": "Logam/Kaleng",
+      "Harga_per_kg": 4000
+    }
+  ],
+  "SETORAN": [
+    {
+      "Id_setoran": "STR0001",
+      "Id_user": "U002",
+      "Tanggal": "2026-11-23",
+      "Id_sampah": "S01",
+      "Berat_kg": 2.0,
+      "Total_nilai": 5000
+    },
+    {
+      "Id_setoran": "STR0002",
+      "Id_user": "U002",
+      "Tanggal": "2026-11-24",
+      "Id_sampah": "S01",
+      "Berat_kg": 4.0,
+      "Total_nilai": 13600
+    },
+    {
+      "Id_setoran": "STR0003",
+      "Id_user": "U002",
+      "Tanggal": "2026-11-24",
+      "Id_sampah": "S01",
+      "Berat_kg": 3.0,
+      "Total_nilai": 10200
+    },
+    {
+      "Id_setoran": "STR0004",
+      "Id_user": "U002",
+      "Tanggal": "2026-11-25",
+      "Id_sampah": "S01",
+      "Berat_kg": 3.0,
+      "Total_nilai": 13500
+    }
+  ],
+  "PENARIKAN": [
+    {
+      "Id_penarikan": "TRK0001",
+      "Tanggal": "2026-11-23",
+      "Id_user": "U002",
+      "Jumlah_penarikan": 5000
+    },
+    {
+      "Id_penarikan": "TRK0002",
+      "Tanggal": "2026-11-24",
+      "Id_user": "U002",
+      "Jumlah_penarikan": 10000
+    },
+    {
+      "Id_penarikan": "TRK0003",
+      "Tanggal": "2026-11-25",
+      "Id_user": "U002",
+      "Jumlah_penarikan": 13000
+    }
+  ]
+}
